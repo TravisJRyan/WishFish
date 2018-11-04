@@ -1,0 +1,24 @@
+<ion-content scroll="false">
+  <div class="fixed-content">
+    <div class="logoHeader">
+      <img alt="logo" height="200" style="position: relative" src="../assets/img/icon-512x512.png">
+    </div>
+    <h1 class="welcomeHeader">wishfish</h1>
+    <form *ngIf="form" [formGroup]="form" (ngSubmit)="signIn()">
+      <div padding>
+        <ion-input type="username"  [(ngModel)]="account.username" class="input-access-code" placeholder="Username" formControlName="username" ></ion-input>
+        <br>
+        <ion-input type="password" [(ngModel)]="account.password" class="input-access-code" placeholder="Password" formControlName="password"></ion-input>
+        <br>
+        <a href="/users-select">
+          <button ion-button block class="login">{{ 'LOGIN' | translate }}</button>
+        </a>
+
+        <div class="create_account">
+          <a href="/#/signup" style="color: #F7931D">Create Account</a>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+        </div>
+      </div>
+    </form>
+  </div>
+
+</ion-content>
