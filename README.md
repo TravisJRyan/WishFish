@@ -7,3 +7,5 @@ Our Stack: Ionic (Angular 5), Node.js Express Server, HTML/CSS/JS, MySql (Sequel
 We made use of the Google Cloud Platform API to geolocate users to recommend nearby locations from which to request goods.
 
 Winner of the Dollar General sponsorship prize for best social hack.
+
+![screenshot](https://github.com/TravisJRyan/WishFish/blob/master/screenshot.png)
